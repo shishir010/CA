@@ -11,8 +11,8 @@ Well-structured lab work with **source code**, **output**, and **clear explanati
 -Signal assignment <br>
 -Simple input-output mapping   <br>
 
-🔗 [Source Code]()  
-📘 [README]()
+🔗 [Source Code](https://github.com/shishir010/CA/tree/main/Lab%201)  
+📘 [README](https://github.com/shishir010/CA/blob/main/Lab%201/lab1.readme)
 
 ---
 
