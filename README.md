@@ -37,7 +37,7 @@ Well-structured lab work with **source code**, **output**, and **clear explanati
 -Testbench design <br>
 -Simulation using GTKWave <br>
 
-📘 [README]()
+📘 [README](https://github.com/shishir010/CA/blob/main/Lab%202/README.md)
 
 ---
 
