@@ -1,0 +1,7 @@
+v 4
+file . ".\test.vhd" "c58e82af02e3884adcd9ede3a869d9cb2d26e7f1" "20260527161317.052":
+  entity tb_nor_gate at 1( 0) + 0 on 13;
+  architecture sim of tb_nor_gate at 7( 90) + 0 on 14;
+file . ".\nor_gate.vhd" "0ad31d9de280df291268855978e4b8710a744c7f" "20260527161317.045":
+  entity nor_gate at 1( 0) + 0 on 11;
+  architecture behavioral of nor_gate at 12( 185) + 0 on 12;

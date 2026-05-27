@@ -1,0 +1,7 @@
+v 4
+file . ".\test.vhd" "f74e408e82d60045c6ae15c95baa51ccee720788" "20260527161850.984":
+  entity tb_xnor_gate at 1( 0) + 0 on 13;
+  architecture sim of tb_xnor_gate at 7( 92) + 0 on 14;
+file . ".\xnor_gate.vhd" "ed500370e41e1315eab7dc4f198d918afe04fb29" "20260527161850.977":
+  entity xnor_gate at 1( 0) + 0 on 11;
+  architecture behavioral of xnor_gate at 12( 187) + 0 on 12;

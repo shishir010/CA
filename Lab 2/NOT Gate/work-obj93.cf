@@ -1,0 +1,7 @@
+v 4
+file . ".\not_gate.vhd" "ba482ed2297feaff394fdf5730cee93b4c4eb1f1" "20260527161624.733":
+  entity not_gate at 1( 0) + 0 on 15;
+  architecture behavioral of not_gate at 11( 158) + 0 on 16;
+file . ".\test.vhd" "d2eb52ad472fb51f2e1c0c06adb1a0a0e8961742" "20260527161624.734":
+  entity tb_not_gate at 1( 0) + 0 on 17;
+  architecture sim of tb_not_gate at 7( 90) + 0 on 18;

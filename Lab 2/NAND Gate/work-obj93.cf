@@ -1,0 +1,7 @@
+v 4
+file . ".\test.vhd" "cadedb66f6014cd38b469776294d365ea5327345" "20260527160915.407":
+  entity tb_nand_gate at 1( 0) + 0 on 13;
+  architecture sim of tb_nand_gate at 7( 92) + 0 on 14;
+file . ".\nand_gate.vhd" "cb58bbb5576ea65cb20a03c442f8576cb9ae9793" "20260527160915.401":
+  entity nand_gate at 1( 0) + 0 on 11;
+  architecture behavioral of nand_gate at 12( 187) + 0 on 12;
