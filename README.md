@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ⚙️ Computer Architecture Lab – VHDL
 
 Well-structured lab work with **source code**, **output**, and **clear explanations**.
@@ -45,3 +46,5 @@ Well-structured lab work with **source code**, **output**, and **clear explanati
 Shishir Bhattarai <br>
 Computer Engineering <br>
 Computer Architecture Lab
+=======
+>>>>>>> 86db977 (Added Lab 3 - Priority Encoder and Decoder)
