@@ -1,63 +1,67 @@
-# Lab 3: VHDL Implementation of Combinational Circuits MUX and DEMUX
+# Lab 4: VHDL Implementation of Multiplexer and Demultiplexer
 
 ## Objective
-*To design and simulate a 4-to-1 Multiplexer using VHDL.
-*To design and simulate a 1-to-4 Demultiplexer using VHDL.
-Theory
-4-to-1 Multiplexer
+
+To design and simulate a 4-to-1 Multiplexer and a 1-to-4 Demultiplexer using VHDL.
 
 ---
+
 ## Theory
 
-A multiplexer is a combinational circuit that selects one input from many inputs and sends it to a single output line based on select signals.
+### 4-to-1 Multiplexer
 
-A 4-to-1 multiplexer has four inputs (D0, D1, D2, D3), two select lines (S1, S0), and one output (Y). The select lines decide which input is passed to the output.
+A multiplexer (MUX) is a combinational circuit that selects one input from multiple inputs and forwards it to a single output based on select lines.
 
-## Truth Table (4-to-1 MUX)
-S1	S0	Y
-0	0	D0
-0	1	D1
-1	0	D2
-1	1	D3
-1-to-4 Demultiplexer
+In a 4-to-1 MUX, there are 4 inputs and 2 select lines. The output depends on the select input combination.
 
-A demultiplexer is a combinational circuit that takes one input and sends it to one of many outputs based on select signals.
+---
 
-A 1-to-4 demultiplexer has one input (D), two select lines (S1, S0), and four outputs (Y0, Y1, Y2, Y3). Only one output is active at a time.
+### 1-to-4 Demultiplexer
 
-## Truth Table (1-to-4 DEMUX)
-S1	S0	Y3	Y2	Y1	Y0
-0	0	0	0	0	D
-0	1	0	0	D	0
-1	0	0	D	0	0
-1	1	D	0	0	0
-Output
-4-to-1 Multiplexer Simulation Output:
-![Decoder Output](DE-MUX/image.png)
+A demultiplexer (DEMUX) does the opposite of a multiplexer. It takes one input and routes it to one of many outputs based on select lines.
 
-<br><br><br><br>
+A 1-to-4 DEMUX has 1 input, 2 select lines, and 4 outputs.
 
-1-to-4 Demultiplexer Simulation Output
-![Decoder Output](MUX/image.png)
+---
 
-<br><br><br><br>
+## Truth Table
 
-## Discussion
+### 4-to-1 MUX
 
-In this experiment, we designed and simulated a 4-to-1 multiplexer and a 1-to-4 demultiplexer using VHDL.
+| S1 | S0 | Output |
+|----|----|--------|
+| 0  | 0  | D0     |
+| 0  | 1  | D1     |
+| 1  | 0  | D2     |
+| 1  | 1  | D3     |
 
-The multiplexer correctly selected one input out of four based on select lines and sent it to the output. The demultiplexer correctly routed the single input to one of the four outputs depending on the select lines.
+---
 
-The simulation results from GTKWave matched the expected truth tables and confirmed correct operation of both circuits.
+### 1-to-4 DEMUX
+
+| S1 | S0 | Y0 | Y1 | Y2 | Y3 |
+|----|----|----|----|----|----|
+| 0  | 0  | D  | 0  | 0  | 0  |
+| 0  | 1  | 0  | D  | 0  | 0  |
+| 1  | 0  | 0  | 0  | D  | 0  |
+| 1  | 1  | 0  | 0  | 0  | D  |
+
+---
+
+## Output
+
+### Multiplexer Simulation Output
+
+![MUX Output](MUX/image.png)
+
+---
+
+### Demultiplexer Simulation Output
+
+![DEMUX Output](DE-MUX/image.png)
+
+---
 
 ## Conclusion
 
-In this lab, we successfully designed and tested both MUX and DEMUX using VHDL.
-
-We achieved:
-Design of a 4-to-1 Multiplexer
-Design of a 1-to-4 Demultiplexer
-Simulation using GHDL and GTKWave
-Verification using waveform output
-
-# This experiment helped us understand how data is selected and distributed in digital systems using combinational logic.
+In this lab, we successfully designed and simulated a 4-to-1 Multiplexer and a 1-to-4 Demultiplexer using VHDL. The results verified correct selection and data routing based on select lines.
