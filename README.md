@@ -60,6 +60,20 @@ Well-structured lab work with **source code**, **output**, and **clear explanati
 
 ---
 
+## 🧪 Lab 4 – Multiplexer and Demultiplexer (VHDL)
+
+**Topics**
+- 4-to-1 MUX
+- 1-to-4 DEMUX
+- Truth tables
+- VHDL simulation using GTKWave
+
+🔗 [Source Code](https://github.com/shishir010/CA/tree/main/Lab%204)
+
+📘 [README](https://github.com/shishir010/CA/blob/main/Lab%204/README.md)
+
+---
+
 ### 👤 Author
 Shishir Bhattarai  
 Computer Engineering  
