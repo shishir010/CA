@@ -1,7 +1,0 @@
-v 4
-file . "mux_tb.vhd" "62dba0fc08cf6dc9ba0eb17511bf14d22a79d39c" "20260605113156.681":
-  entity mux_tb at 1( 0) + 0 on 13;
-  architecture simulation of mux_tb at 7( 87) + 0 on 14;
-file . "mux_4to1.vhd" "c2e34177f3b6af3df5c84f1a271047cfcf4ad582" "20260605113156.671":
-  entity mux_4to1 at 1( 0) + 0 on 11;
-  architecture behavioral of mux_4to1 at 12( 296) + 0 on 12;
