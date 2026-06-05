@@ -1,4 +1,4 @@
-# Lab 4: VHDL Implementation of Combinational Circuits (Priority Encoder and Decoder)
+# Lab 3: VHDL Implementation of Combinational Circuits (Priority Encoder and Decoder)
 
 ## Objective
 
