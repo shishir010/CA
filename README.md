@@ -1,10 +1,10 @@
-# ⚙️ Computer Architecture Lab – VHDL
+# 💻 Computer Architecture Lab – VHDL
 
 Well-structured lab work with **source code**, **output**, and **clear explanations**.
 
 ---
 
-## 🧪 Lab 1 – Buffer Design using VHDL
+## 🖥️ Lab 1 – Buffer Design using VHDL
 **Topics**  
 - Basic Buffer circuit  
 - VHDL entity and architecture  
@@ -16,7 +16,7 @@ Well-structured lab work with **source code**, **output**, and **clear explanati
 
 ---
 
-## 🧪 Lab 2 – Logic Gates using VHDL
+## 🖥️ Lab 2 – Logic Gates using VHDL
 **Topics**  
 - AND Gate  
 🔗 [Source Code](https://github.com/shishir010/CA/tree/main/Lab%202/And%20Gate)
@@ -46,7 +46,7 @@ Well-structured lab work with **source code**, **output**, and **clear explanati
 
 ---
 
-## 🧪 Lab 3 – Priority Encoder and Decoder (VHDL)
+## 🖥️ Lab 3 – Priority Encoder and Decoder (VHDL)
 
 **Topics**
 - 4-to-2 Priority Encoder
@@ -60,7 +60,7 @@ Well-structured lab work with **source code**, **output**, and **clear explanati
 
 ---
 
-## 🧪 Lab 4 – Multiplexer and Demultiplexer (VHDL)
+## 🖥️ Lab 4 – Multiplexer and Demultiplexer (VHDL)
 
 **Topics**
 - 4-to-1 MUX
@@ -71,6 +71,19 @@ Well-structured lab work with **source code**, **output**, and **clear explanati
 🔗 [Source Code](https://github.com/shishir010/CA/tree/main/Lab%204)
 
 📘 [README](https://github.com/shishir010/CA/blob/main/Lab%204/README.md)
+
+---
+
+## 🖥️ Lab 5 – 2-Bit Comparator (VHDL)
+
+**Topics**
+- 2-Bit Comparator
+- Truth tables
+- VHDL simulation using GTKWave
+
+🔗 [Source Code](https://github.com/shishir010/CA/tree/main/Lab%205)
+
+📘 [README](https://github.com/shishir010/CA/blob/main/Lab%205/README.md)
 
 ---
 
