@@ -69,6 +69,7 @@ A synchronous up/down counter can either increment or decrement its count depend
 ---
 
 # Simulation Output
+
 ---
 
 ![Waveform](image.png)
